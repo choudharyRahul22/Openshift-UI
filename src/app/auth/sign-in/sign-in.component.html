@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="logo">
+    <img src="./assets/images/optumrx-iris-logo.png">
+  </div>
+  <div class="row">
+    <div class="col-md-7">
+      <img src="./assets/images/imageLogin2.png">
+    </div>
+    <div class="col-md-5">
+      <div class="loginContainer">
+        <form name="form" role="form" [formGroup]="signInForm" (ngSubmit)="onSignin()">
+          <div class="form-group">
+            <input type="text" #usr id="username" class="form-control username" placeholder="User Name" formControlName="username">
+          </div>
+          <div class="form-group">
+            <input type="password" id="password" class="form-control password" placeholder="Password" formControlName="password">
+          </div>
+          <button type="submit" class="btn btn-login" >Login</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

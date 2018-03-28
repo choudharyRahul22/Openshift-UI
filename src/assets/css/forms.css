@@ -1,0 +1,142 @@
+label,
+button,
+select {
+    font-family: arial;
+    text-transform: uppercase;
+}
+
+.alert {
+    font-size: 16px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.form-heading {
+    margin-bottom: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* overrides */
+.form-control {
+    font-size: 14px;
+    height: 34px;
+    padding-left: 5px;
+    width: 96%;
+}
+
+.form-control-feedback {
+    height: 50px;
+    line-height: 50px;
+}
+
+.has-feedback label ~ .form-control-feedback {
+    top: 29px;
+}
+
+.basic-form {
+    background-color: #f7f7f7;
+    padding: 1.3em 3.2em 2.3em;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    -webkit-box-shadow: 1px 2px 6px #bdbdbd;
+    -moz-box-shadow: 1px 2px 6px #bdbdbd;
+    box-shadow: 1px 2px 6px #bdbdbd;
+    position: relative;
+    margin-top: 20px;
+}
+
+legend.heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.9em;
+    text-transform: uppercase;
+    color: #447691;
+    position: absolute;
+    top: 35px;
+    padding-bottom: 10px;
+    border-bottom: none;
+}
+
+select {
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    padding: 5px 3px;
+    border: 1px solid #B0BEC5;
+}
+
+.form-content {
+    margin-top: 65px;
+    padding-top: 30px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group .form-control {
+        text-transform: none;
+}
+
+.form-horizontal .control-label {
+        text-align: left !important;
+        padding-left: 28px;
+}
+
+select.form-control {
+        margin-left: 4px;
+}
+
+.top-form-label {
+        display: block;
+        font: arial;
+        font-size: 12px;
+        font-weight: normal;
+        color: #000;
+        margin-left: 3px;
+}
+
+.top-form-group {
+        padding-right: 15px;
+}
+
+.placeholder-input {
+        font: Arial;
+        color: A2a2a2;
+        font-size: 12px;
+        font-weight: normal;
+}
+
+.adv-search {
+        margin-top: 25px;
+        font-size: 12px;
+        margin-left: 10px;        
+        display: inline-block;
+        vertical-align: middle;
+}
+
+.top-icons {
+        padding: 0 10px 10px 0;
+}
+
+.icons-right {
+        text-align: right;
+}
+
+.icons-menu {
+        padding-right: 15px;
+        font-size:20px;
+        display: inline;
+}
+
+.icon-hamburger {
+        font-size: 20px !important;
+}

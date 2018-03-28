@@ -1,0 +1,72 @@
+.logo {
+  padding-bottom: 50px;
+}
+
+.loginContainer {
+  width: 520px;
+  padding: 30px;
+  background: #f3f3f3;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.btn-login {
+  height: 57px;
+  width: 460px;
+  background-color: #316BBE;
+  border: none;
+  font: Arial;
+  font-size: 19px;
+  font-style: normal;
+  color: #ffffff;
+
+}
+
+input.username,
+input.password {
+  height: 44px;
+  font: Arial;
+  font-size: 18px;
+  font-style: normal;
+  color: #B1B3B3;
+  padding-left: 20px;
+}
+
+/* top nav bar */
+/*.navbar-login {
+  position: relative;
+  text-align: center;
+}
+
+.brand-login {
+  position: absolute;
+  left: 0;
+  right: 0;
+}*/
+
+/*
+.navbar-default .navbar-brand:hover {
+  color: #fff;
+}
+
+!* login form *!
+.form-signin {
+  margin-top: 13em;
+}
+
+.form-signin .checkbox {
+  margin-bottom: 20px;
+}
+*/
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+<div class="container">
+  <div class="row">
+
+    <div class="col-md-12" style="margin-top: 2%;margin-left: 10%;">
+      <ul class="list-group">
+        <li class="list-group-item active">Select Work Area</li>
+      </ul>
+      <hr class="border" align="left" width="82%">
+      <form name="form" role="form" [formGroup]="workAreaSelectionForm" (ngSubmit)="onworkAreaSelection()">
+          <div class="form-group">
+            <label class="col-sm-2 col-form-label control-label" for="queueName"><b>Queue</b></label>
+            <div class="col-sm-10">
+              <select class="form-control" id="queue" name="queueName" formControlName="queueName" [ngModel]="defaultQueueName.queueName">
+                <option *ngFor="let qn of queueName" [selected]="qn.queueName === defaultQueueName.queueName">{{qn.queueName}}</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 col-form-label control-label" for="businessName"><b>Business</b></label>
+            <div class="col-sm-10">
+              <select class="form-control" id="businessName" name="businessName" formControlName="businessName" [ngModel]="defaultBusinessName.businessName">
+                <option *ngFor="let bn of businessName" [selected]="bn.businessName === defaultBusinessName.businessName">{{bn.businessName}}</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 col-form-label control-label" for="cellName"><b>Cell</b></label>
+            <div class="col-sm-10">
+              <select class="form-control" id="cellName" name="cellName" formControlName="cellName" [ngModel]="defaultCellName.cellName">
+                <option *ngFor="let cn of cellName" [selected]="cn.cellName === defaultCellName.cellName">{{cn.cellName}}</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 col-form-label control-label" for="sourceName"><b>Source</b></label>
+            <div class="col-sm-10">
+              <select class="form-control" id="sourceName" name="sourceName" formControlName="sourceName" [ngModel]="defaultSourceName.sourceName">
+                <option *ngFor="let sn of sourceName" [selected]="sn.sourceName === defaultSourceName.sourceName">{{sn.sourceName}}</option>
+              </select>
+            </div>
+        </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> Save as Preset
+                </label>
+              </div>
+            </div>
+          </div>
+        <hr class="border" align="left" width="82%">
+        <div class="row">
+          <div class="col-md-4"></div>
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+            <div>
+              <button  type="button" ng-click="openSearch();" class="btn btn-default float-md-left" data-dismiss="modal">Reset</button>
+              <button  type="button" (click)="openOrderScreen()" class="btn btn-primary float-md-left" data-dismiss="modal">Search</button>
+            </div>
+          </div>
+        </div>
+
+      </form>
+    </div>
+
+  </div>
+</div>

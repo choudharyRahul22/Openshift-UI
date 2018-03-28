@@ -1,0 +1,718 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+    padding:0px;
+}
+
+.body-bg {
+        background: #ffffff;
+}
+
+.top-adjustment {
+    padding-top: 0 !important;
+    padding-bottom:50px;
+}
+.row.test {
+    margin-top: 5%;
+}
+
+.bg {
+        background: #f1f5f6;
+        top: 100% !important;
+}
+
+.bold-500 {
+    font-weight: 500;
+}
+
+.panel-title {
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    color: #B76344;
+    font-weight: 400;
+    text-transform: none;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    color: #B76344;
+    font-weight: 300;
+    text-transform: none;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: 'Arial', sans-serif;
+    color: #447691;
+    text-transform: none;
+    font-weight: 500;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.footer-padding {
+        padding-bottom: 20px !important;
+}
+
+.content-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 1.8em;
+    color: #616161;
+    text-transform: none;
+}
+
+.content-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.7em;
+}
+
+.content-wrapper {
+    background: rgba(236,239,241,0.4);
+    border: 1px solid #ECEFF1;
+    padding: 1em 2em;
+    border-left: 7px solid #CFD8DC;
+    margin-bottom: 30px;
+}
+
+/* font awesome */
+.fa-1-5x {
+    font-size: 1.5em;
+}
+
+.header-separator {
+        border: 1px solid #DADADA;
+        margin:0px;
+}
+
+.modal-container {
+        width: 33%;
+}
+
+.modal-hold {
+        width: 76%;
+}
+
+.btn-primary, .btn-default {
+        text-transform: none; 
+}
+
+.modal-footer .btn-default {
+        margin-right: 10px;
+}
+
+.modal-header {
+        padding: 20px 30px 15px;
+        border: 0;
+}
+.modal-footer.no-border {
+        border: 0;
+        margin-right: 13px;
+        margin-bottom: 14px;
+}
+
+hr.divider {
+        margin: 0 30px 0 30px;
+        border-bottom: 3px solid #337ab7;
+}
+
+hr.border {
+        margin: 0 15px 0 15px;
+        border-top: 3px solid #eee;
+}
+
+.top-head {
+        padding: 15px 20px;
+        background: #fff;
+        margin-bottom:30px;
+}
+
+p.notes {
+        padding-bottom: 2px;
+        border-bottom: 1px solid #000;
+        font: Arial;
+        font-size: 14px;
+        font-weight: bold;
+        display: block;
+		margin-top:10px;
+		margin-bottom:10px;
+}
+
+.name {
+        font: Arial;
+        font-size: 10px;
+        font-weight: bold;
+        color: #5A6980;
+        padding-left: 0;
+}
+
+.date {
+        font: Arial;
+        font-size: 10px;
+        font-weight: bold;
+        color: #5A6980;
+        text-align: right;
+}
+
+.message {
+        font: Arial;
+        font-size: 12px;
+        font-weight: normal;
+        color: #000;
+        margin-top: 5px;
+}
+
+input.message {
+        font-size: 12px;
+        width: 100%;
+        color: #A2A2A2;
+        border-radius: 3px;
+        padding-top: 5px;
+        margin-top: 21px;
+        margin-bottom: 30px;
+}
+
+.inner-addon { 
+    position: relative; 
+    margin-top:10px;
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px 10px 20px 7px;
+  pointer-events: none;
+  color: #4C98CD;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  33px; }
+.right-addon input { padding-right: 30px; }
+
+.summary-title {
+        font: Arial;
+        font-size: 12px;
+        font-weight: bold;
+        color: #000;
+}
+
+.summary-name {
+        font-size: 12px;
+        font: Arial;
+        font-weight: normal;
+        color: #000;
+        display: block;
+        padding-left: 0;
+}
+
+.summary-amount {
+        font-size: 12px;
+        font: Arial;
+        font-weight: normal;
+        color: #000;
+        text-align: right;
+}
+
+.order {
+        padding-top: 7px;
+}
+
+.nav-title {
+        font: Arial;
+        font-size: 14px;
+        font-weight: bold;
+        color: #000;
+        padding-left: 10px;
+        margin-bottom: 3px;
+}
+
+.no-scroll{
+	overflow:hidden;
+}
+
+.nav-box > li > a {
+        padding: 1px 9px;
+        display: block;
+        position: relative;
+}
+
+.nav-box a {
+        font-family: verdana;
+        font-size: 13px;
+        font-weight: normal;
+        color: #4C98CD;
+}
+
+.nav-border {
+        border:1px solid #DADADA;
+}
+
+.nav-box .badge {
+        padding: 4px 6px;
+        font-size: 11px;
+        font-weight: bold;
+        color: #fff;
+        
+}
+
+
+
+.container-order-summary {
+        background: #fff;
+        height: 154px;
+        padding: 15px 20px;
+        /*width: 350px; */
+        width: 107%;
+        
+}
+
+.container-patient-summary {
+        background: #fff;
+        height: 154px;
+        padding: 15px 20px;
+        width: 100%;
+}
+
+.container-order-details {
+        background: #fff;
+        padding: 15px 20px;
+        margin-top: 30px;
+        width: 100%;
+}
+
+.order-title, .rx-title {
+        border-bottom: 4px solid #4C98CD;
+        font-size: 14px;
+        font: Arial;
+        font-weight: bold;
+        color: #000;
+        padding-bottom: 5px;
+}
+
+.shipping-title {
+        font-size: 14px;
+        font: Arial;
+        font-weight: bold;
+        color: #000;
+        padding-bottom: 5px;
+}
+
+.rx-content {
+        font-size: 12px;
+        font-weight: normal;
+        color: #000;
+        padding-left: 0;
+}
+
+span.content {
+        font-weight: bold;
+        font-size: 12px;
+        color: #000;
+}
+
+
+
+th.heading, .shipping-heading {
+        font: Arial;
+        font-size: 12px;
+        font-weight: bold;
+        color: #000;
+}
+
+td.content, span.shipping-content {
+        font-size: 12px;
+        font: Arial;
+        font-weight: normal;
+        color: #000;
+}
+
+hr.table-border {
+        border-bottom: 1px solid #ccc;
+}
+
+.bg-highlight {
+        background: #FFB7B7;
+}
+
+.bg-highlight-blue {
+        background: #A0DFFF;
+}
+
+.separator {
+        border: 3px solid #E0E0E0;
+}
+
+.no-padding {
+        padding: 0;
+}
+
+.no-left-padding {
+        padding-left: 0;
+}
+
+.username {
+        font: Arial;
+        font-size: 12px;
+        font-weight: bold;
+        color: #000;
+        display: inline;
+        vertical-align: super;
+}
+
+.edit-link {
+        font-size: 12px;
+        color: #4C98CD;
+}
+
+.head-badge {
+        position: absolute;
+        left: 11px;
+        top: -8px;
+        font-size: 12px;
+        font-weight: bold;
+        color: #fff;
+        font: Arial;
+        padding: 3px 7px 6px 7px;
+}
+
+.delete-row {
+        color: red;
+}
+
+.add-ship {
+        text-align: right;
+        padding-right: 0;
+        font-size: 12px;
+        padding-top: 3px;
+}
+
+
+/** modal for Release/Apply Hold **/
+
+hr.modal-border {
+        margin: 0 0;
+        border-bottom: 1px solid #DADADA;
+}
+
+p.modal-title {
+        font-size: 18px;
+        font: Arial;
+        color: #000;
+}
+
+.modal-nav {
+        margin-top: -12px !important;
+}
+
+.nav-tabs.no-border {
+        border: 0;
+        margin-left: 14px;
+}
+
+hr.nav-divider {
+        border-bottom: 1px solid #DADADA;
+        margin: 0 32px 5px 27px;
+}
+
+.modal-box {
+        padding: 15px;
+}
+
+.right-padding {
+        padding-right: 25px;
+}
+
+.modalTable {
+        border: 1px solid #DADADA;
+        margin-bottom: 15px;
+        margin-top: 20px;
+        padding: 12px;
+}
+
+.circle-green {
+        border-radius:50%;
+        height: 6px;
+        width: 6px;
+        background-color: #8DBA14;
+        display: inline-block;
+        vertical-align: top;
+}
+
+.circle-red {
+        border-radius:50%;
+        height: 6px;
+        width: 6px;
+        background-color: #FF5A5A;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 20px;
+}
+
+p.status {
+        display: inline-block;
+        font-size: 10px;
+        font: Arial;
+        color: #727272;
+        margin-left: 8px;
+        margin-top: -4px;
+        vertical-align: top;
+}
+
+.form-control.option-text {
+        text-transform: none;
+        font-size:12px;
+        font-weight: normal;
+        width: 274px;
+}
+
+.select-menu {
+        outline: none;
+          border: thin #ddd solid;
+}
+
+.no-margin {
+        margin-left: 0 !important;
+}
+
+textarea.text {
+        width: 721px;
+}
+
+p.heading {
+        margin-top: 7px;
+}
+
+.release-btn {
+        background: #4C98CD;
+}
+
+.line {
+        border-bottom: 1px solid #000;
+        margin-top: 7px;
+}
+
+.hold-title {
+        font-weight: bold;
+        font-size: 14px;
+}
+
+.badge.status {
+        background: #FF5A5A;
+        font-size: 9px;
+        padding: 3px 5px;
+}
+
+.nav-tabs .active {
+        border-bottom: 3px solid #539CCF;
+        
+}
+
+.nav-tabs .active  a {
+        border: 0 !important;
+        color: #000 !important;
+        font-weight: bold;
+}
+
+.nav-tabs .inactive a {
+        color: #A7B1C1;
+        font-weight: bold;
+}
+
+.nav > li > a:hover {
+        background: transparent;
+        border: none;
+}
+
+.select-form {
+        width: 225px !important;
+}
+
+.text-apply {
+        font-size: 13px;
+        margin-left: 5px;
+        display: inline-block;
+        padding-bottom: 10px;
+        font-weight: normal;
+}
+
+.form-group.padding-right {
+        padding-right: 15px;
+}
+
+.top-form-label.hold {
+        font-size: 14px;
+}
+
+.footer-padding-top {
+        padding-top: 15px;
+}
+
+.modal {
+        top: -20px !important;
+}
+
+/* Search Member */
+
+tbody.search tr:last-child {
+        border-bottom: 1px solid #ddd;
+}
+
+thead tr:first-child {
+        border-bottom: 4px solid #ddd;
+}
+
+.search-heading {
+        font-size: 13px;
+        font-weight: bold;
+        color: #000;
+}
+
+.container-search-table {
+        background: #fff;
+        margin-top: 0;
+        padding: 0
+}
+
+p.gray {
+        color: #A7B1C1;
+        font-size: 12px;
+        font-weight: normal;
+}
+
+span.text {
+        font-weight: bold;
+        color: #000;
+}
+
+.search-results {
+        padding: 0;
+        margin-top: 10px;
+        margin-left: 15px;
+}
+
+.search-head {
+        border-bottom: 4px solid #4C98CD;
+        color: #000;
+        font-size: 16px;
+        font-weight: bold;
+        padding-bottom: 10px;
+        margin-left: 15px;
+}
+
+.btn-search-member {
+        background: #4C98CD;
+        color: #fff;
+        border: 1px solid #4C98CD;
+        margin-left: 5px;
+        margin-top:20px;
+        padding-top: 5px;
+        text-transform: none;
+}
+
+.top-margin {
+        margin-bottom: -41px;
+}
+
+.padding-align {
+        padding: 13px;
+}
+
+.select-box.input-group-addon {
+        background-color: #fff;
+}
+
+.search-adv {
+        display: inline;
+        font-size: 12px;
+        margin-left: 5px;
+        margin-top: 20px;
+        color: #539CCF;
+}
+
+.search-divider {
+        margin: 5px 0 20px 13px;
+}
+
+.circle-status-online {
+        margin-top: 3px;
+        margin-left: 3px;
+        background-color: #8DF32E;
+        border-radius: 50%;
+        display: inline-block;
+        height: 10px;
+        width: 10px;
+        vertical-align: top;
+}
+
+.rec-legend-red {
+        height:5px;
+        width: 15px;
+        background: #FFB7B7;
+        display: inline-block;
+        margin:5px 2px 0 10px;
+}
+
+.rec-legend-blue {
+        height:5px;
+        width: 15px;
+        background: #A0DFFF;
+        display: inline-block;
+        margin:5px 2px 0 10px;
+}
+
+.text-legend {
+        display:inline-block;
+        font-size: 10px;
+        color: #A2A2A2;
+        font-weight: normal;
+        font: Arial;
+}
+
+.bottom-align {
+        padding-bottom: 35px;
+}
+
+.form-inline.right-align {
+        text-align: right;
+}
+
+.btn-refill {
+        border: 1px solid #4c98cd;
+        
+}
+
+.tr-bg {
+        background: #E7F4D9;
+}
+
+.input-group-btn.click-btn {
+        left: 321px; 
+        position: absolute; 
+        top: 10px;
+}
+
+.btn-icon {
+        position: absolute; 
+        left: -3px; 
+        background: #fff; 
+        height: 4px; 
+        top: -9px;
+}
+
+.form-control.capitalize {
+        text-transform: uppercase !important;
+}

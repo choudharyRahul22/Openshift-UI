@@ -1,0 +1,118 @@
+ <div class="wrapper" style="margin-left: -15px;">
+    <!-- Sidebar Holder -->
+    <nav id="sidebar">
+      <div class="sidebar-header">
+        <h3>Iris</h3>
+      </div>
+
+      <ul class="list-unstyled components">
+        <!--<p>Index</p>-->
+        <li class="active">
+          <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Imageviewer</a>
+          <ul class="collapse list-unstyled" id="homeSubmenu">
+            <li><a href="#">open</a></li>
+            <li><a href="#">next</a></li>
+            <li><a href="#">close</a></li>
+          </ul>
+        </li>
+        <li>
+          <!--<a href="#">Patient History</a>-->
+          <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Patient History</a>
+          <ul class="collapse list-unstyled" id="pageSubmenu">
+            <li><a href="#">Rx History</a></li>
+            <li><a href="#">Clinical Information</a></li>
+          </ul>
+        </li>
+        <li>
+          <!--<a href="#">Task</a>-->
+          <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Task</a>
+          <ul class="collapse list-unstyled" id="pageSubmenu">
+            <li><a href="#">View Tasks</a></li>
+            <li><a href="#">Create Task</a></li>
+          </ul>
+        </li>
+        <li>
+          <!--<a href="#">Payment</a>-->
+          <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Payment</a>
+          <ul class="collapse list-unstyled" id="pageSubmenu">
+            <li><a href="#">Make Payment</a></li>
+            <li><a href="#">Add Payment Methods</a></li>
+            <li><a href="#">Account Details</a></li>
+          </ul>
+        </li>
+
+      </ul>
+
+
+    </nav>
+
+    <!-- Page Content Holder -->
+    <div id="content">
+
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+
+          <div class="navbar-header">
+            <button type="button" id="sidebarCollapse" class="navbar-btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Page</a></li>
+              <li><a href="#">Page</a></li>
+              <li><a href="#">Page</a></li>
+              <li><a href="#">Page</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <hr>
+
+      <!--<form class="form-inline ng-pristine ng-valid">
+        <div class="form-group top-form-group">
+          <label class="top-form-label">Last Name</label> <input
+          class="form-control ng-pristine ng-valid"
+          ng-model="SearchMemberHeader.lastName" type="text">
+        </div>
+        <div class="form-group top-form-group">
+          <label class="top-form-label">First Name</label> <input
+          class="form-control ng-pristine ng-valid"
+          ng-model="SearchMemberHeader.firstName" type="text">
+        </div>
+        <div class="form-group top-form-group">
+          <label class="top-form-label">Date of Birth</label> <input
+          class="form-control placeholder-input ng-pristine ng-valid"
+          ng-model="SearchMemberHeader.dob" data-date-format="yyyy-MM-dd"
+          data-date-type="string" data-max-date="today" data-autoclose="1"
+          name="date2" bs-datepicker="" type="text">
+        </div>
+        <div class="form-group top-form-group">
+          <label class="top-form-label">Phone</label> <input
+          class="form-control ng-pristine ng-valid"
+          ng-model="SearchMemberHeader.phoneNumber" type="text">
+        </div>
+        <div class="form-group top-form-group">
+          <label class="top-form-label">Select</label> <select
+          class="form-control placeholder-input">
+          <option value="Account Number">Account Number</option>
+          <option value="Order Number">Order Number</option>
+          <option value="Member ID">Member ID</option>
+        </select><input class="select-box ng-pristine ng-valid"
+                        ng-model="SearchMemberHeader.accountNumber" type="text">
+        </div>
+        <button type="submit" ng-click="SearchMember();"
+                class="btn btn-search-member ng-scope" data-placement="top-right"
+                data-container="body" data-duration="3" bs-alert="alert">Search</button>
+        <p class="adv-search">
+          <a href="#" ng-click="openSearch();" class="">Advanced Search</a>
+        </p>
+      </form>-->
+
+    </div>
+  </div>
+
