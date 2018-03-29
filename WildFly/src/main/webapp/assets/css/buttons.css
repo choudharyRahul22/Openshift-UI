@@ -1,0 +1,55 @@
+button {
+    text-transform: uppercase;
+}
+
+.btn-brand {
+    background-color: #60A4C7;
+    border-color: #5c9ec0;
+    color: #fff;
+}
+
+.btn-brand:hover,
+.btn-brand:focus {
+    background-color: #4f89a7;
+    background-position: 0 -15px;
+    border-color: #4b83a0;
+    color: #fff;
+}
+
+.btn-top-margin {
+    margin-top: 1.5em;
+}
+
+.btn-def {
+	border: 1px solid #4C98CD;
+	font: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	text-transform: Capitalize;
+	margin-right: 15px;
+}
+
+.btn-submit {
+	border: none;
+	background: #4C98CD;
+	color: #fff;
+	text-transform: Capitalize;
+	font-family: 'Helvetica';
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.btn-search {
+	text-transform: capitalize;
+	border: 1px solid #4C98CD;
+	background: #fff;
+	color: #000;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.select-box {
+	height: 31px;
+	width: 100px;
+}

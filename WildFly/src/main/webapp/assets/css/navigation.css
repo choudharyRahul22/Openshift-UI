@@ -1,0 +1,41 @@
+﻿.navbar-default .navbar-brand {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.pt-navbar {
+    background-color: #60727B;
+    border-color: #5b6c75;
+    /*-moz-box-shadow: 0 1px 2px #c2c2c2;
+    -webkit-box-shadow: 0 1px 2px #c2c2c2;
+    box-shadow: 0 1px 2px #c2c2c2;*/
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #CFD8DC;
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+}
+
+.navbar-default .navbar-nav > li.active > a {
+    margin-bottom: -1px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.nav-pills {
+    margin-top: 10px;
+}
+
+.nav-tabs > li > a,
+.nav-pills > li > a,
+.dropdown-menu {
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+}
+
+.nav-pills > li > a {
+    padding: 15px 20px;
+}

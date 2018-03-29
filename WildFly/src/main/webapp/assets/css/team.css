@@ -1,0 +1,39 @@
+﻿.list-team {
+    width: 100%;
+}
+
+    .list-team th {
+        font-size: 1.1em;
+        text-transform: uppercase;
+    }
+
+    .list-team tr:first-of-type {
+        border-bottom: 2px solid #EEEEEE;
+    }
+
+    .list-team tr {
+        /*border-bottom: 1px solid #F5F5F5;*/
+        padding: 1em;
+    }
+
+        .list-team tr:last-child {
+            border-bottom: none;
+        }
+
+    .list-team th,
+    .list-team td {
+        padding: 1.3em;
+        font-size: 1.2em;
+    }
+
+.data:nth-of-type(2n+1) {
+    background-color: rgba(236,239,241,0.6);
+}
+
+.data:hover {
+    background-color: rgba(156,185,199,0.5);
+}
+
+.name {
+    font-weight: 500;
+}
